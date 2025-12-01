@@ -16,3 +16,11 @@ tsconfig.vitest-temp.json
 *.log
 *.local
 *.tsbuildinfo
+
+# Allow dist folders for specific packages to be committed for git dependencies
+!packages/google/dist
+!packages/ai/dist
+!packages/react/dist
+!packages/provider/dist
+!packages/provider-utils/dist
+!packages/gateway/dist
